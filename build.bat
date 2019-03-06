@@ -1,3 +1,4 @@
+REM ver1
 set PRJ_NAME=python_ctp
 
 cd %PRJ_NAME%
