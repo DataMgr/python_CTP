@@ -16,6 +16,10 @@ set "hhmiss=%hhmiss: =0%"
 set VER="VER_COMMIT_TIME_%YYYYmmdd%_%hhmiss%"
 
 REM git command
+
+git config user.name user.name "DataMgr"
+git config user.email "liu.changsheng@sfit.shfe.com.cn"
+
 git add *
 git commit  -m "%VER%"
 git push
