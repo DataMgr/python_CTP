@@ -19,6 +19,7 @@ REM git command
 
 git config user.name user.name "DataMgr"
 git config user.email "liu.changsheng@sfit.shfe.com.cn"
+git clone https://github.com/DataMgr/python_CTP.git
 
 git add *
 git commit  -m "%VER%"
