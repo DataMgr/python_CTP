@@ -24,3 +24,4 @@ git clone https://github.com/DataMgr/python_CTP.git
 git add *
 git commit  -m "%VER%"
 REM git push -f  #! [rejected]        master -> master (fetch first)
+git push
