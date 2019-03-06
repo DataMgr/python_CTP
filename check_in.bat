@@ -18,4 +18,4 @@ set VER="VER_COMMIT_TIME_%YYYYmmdd%_%hhmiss%"
 REM git command
 git add *
 git commit  -m "%VER%"
-git push -u DataMgr "liu.changsheng@sfit.shfe.com.cn"
+git push -u DataMgr "P@ssw0rd"
