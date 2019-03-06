@@ -10,10 +10,7 @@ import sys
 from setuptools       import setup
 from Cython.Build     import cythonize,   build_ext
 from Cython.Distutils import Extension as Cython_Extension
-
-#for copy dir and file
-from distutils.dir_util import copy_tree
-
+ 
 CTP_Version="6.3.11"
 PRJ_NAME="python_ctp"
 
@@ -49,8 +46,6 @@ elif sys.platform == "win32":
     package_data.append("*.dll") 
 
 CTP_HEADER     = CTP_LIB    
-#if sys.platform in ["linux", "win32"]:
-#    copy_tree(CTP_LIB, MYCTP_PRJ)
 
 common_args = {
     "cython_include_dirs": [CYTHON2C_HEADER, C2CYTHON_HEADER],
